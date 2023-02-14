@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-destiny {
+    background-color: #1579BE;
+}
+
+.text-destiny {
+    color: #1579BE;
+}
+
+.bg-destiny:hover {
+    background-color: #0f5b8e;
+}
+
+.focus:focus {
+    outline-color: #1579BE;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar__container-links a {
+    --main-color: #1579be;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 30px;
+    position: relative;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* CUSTOM INPUT FILE */
